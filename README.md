@@ -9,8 +9,8 @@ and integration tests passing already.
 
 There is no documentation yet, either.
 
-If you're interested, the main stuff is in the [core DSL file](core/src/main/kotlin/com.ninja_squad.springrestdocskotlin.core/dsl.kt). But to understand how the DSL looks like, you can
-have a look at [the examples](examples/src/main/kotlin/com/ninja_squad/springrestdocskotlin/examples/core).
+If you're interested, the main stuff is in the [core DSL file](core/src/main/kotlin/com/ninjasquad/springrestdocskotlin/core/dsl.kt). But to understand how the DSL looks like, you can
+have a look at [the examples](examples/src/main/kotlin/com/ninjasquad/springrestdocskotlin/examples).
 
 ## Main goals
 
@@ -18,4 +18,4 @@ have a look at [the examples](examples/src/main/kotlin/com/ninja_squad/springres
   This includes reusable descriptors, reusable snippets, relaxed snippets, attributes, preprocessors.
 - Have an easier to discover, more intuitive API: almost no static imports necessary. 
   Once you know you must use `andDocument`, the API should be discoverable by using code-completion
-- Provide scopes that can be the targets for extension function. See [this file](examples/src/main/kotlin/com/ninja_squad/springrestdocskotlin/examples/core/ExtensionFunctionsExampleTest.kt) for an example
+- Provide scopes that can be the targets for extension function. See [this file](examples/src/main/kotlin/com/ninjasquad/springrestdocskotlin/examples/ExtensionFunctionsExampleTest.kt) for an example
